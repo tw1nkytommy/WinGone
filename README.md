@@ -5,7 +5,7 @@ _USING THIS REQUIRES PHYSICAL ACCESS TO TARGET MACHINE_
 
 **THIS WORKS WITH BITLOCKER ENABLED**
 
-WinGone is a very simple bootkit that deletes the Windows Boot Manager thus preventing Windows from starting and rendering the OS/computer unusable.
+WinGone is a very simple bootkit that deletes the Windows Boot Manager preventing Windows from starting and rendering the OS/computer unusable.
 
 **make the bootable USB(macOS)**
 - download the WinGone folder from source code
