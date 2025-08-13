@@ -7,7 +7,7 @@ _USING THIS REQUIRES PHYSICAL ACCESS TO TARGET MACHINE_
 WinGone is a very simple bootkit that deletes the Windows Boot Manager thus preventing Windows from starting and rendering the OS/computer unusable.
 
 **instructions(macOS)**
-- download the WinGone from source code
+- download the WinGone folder from source code
 - open a terminal
 - run diskutil list
 - find the USB drive you want to make the attack USB
