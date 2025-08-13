@@ -19,3 +19,5 @@ WinGone is a very simple bootkit that deletes the Windows Boot Manager thus prev
 - Boot the USB drive, let it run(it will auto exit when done)
 - Optional: Reenable Secure Boot
 - Profit!
+
+- Yes this can be done on Windows/Linux, mount the EFI partition of your USB drive and copy the EFI folder in the WinGone folder
