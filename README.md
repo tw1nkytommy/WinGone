@@ -7,7 +7,7 @@ _USING THIS REQUIRES PHYSICAL ACCESS TO TARGET MACHINE_
 
 WinGone is a very simple bootkit that deletes the Windows Boot Manager preventing Windows from starting and rendering the OS/computer unusable.
 
-**make the bootable USB(macOS)**
+**making the attack USB drive(macOS)**
 - download the WinGone folder from source code
 - open a terminal
 - run diskutil list
@@ -17,9 +17,9 @@ WinGone is a very simple bootkit that deletes the Windows Boot Manager preventin
 
 **You can make the bootable USB on Windows/Linux by mounting the EFI partition and copying the EFI folder**
 
-**attack**
-- Eject the usb and plug it into target machine
-- **Disable Secure Boot** from UEFI settings
+**attacking the target machine**
+- Eject the usb drive and plug it into target machine
+- **Disable Secure Boot** from UEFI settings(reboot and press certain key depending on manufacture)
 - Boot the USB drive, let it run(it will auto exit when done)
 - Optional: Reenable Secure Boot
 - Profit!
